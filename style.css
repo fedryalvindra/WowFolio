@@ -77,6 +77,18 @@ a {
   }
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.image-profile {
+  border-radius: 100%;
+  max-width: 30rem;
+}
+
 .btn-theme {
   background: rgba(var(--themeColor), 1);
   color: #fff;
@@ -447,7 +459,7 @@ a {
 
 /* About */
 .about {
-  background: rgb(252, 252, 252);
+  background: #f4f4f4;
 }
 
 .about__info {
