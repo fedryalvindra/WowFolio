@@ -602,11 +602,19 @@ a {
   .projects__list-item {
     grid-template-columns: 60%;
   }
+  .image-profile {
+    border-radius: 100%;
+    max-width: 25rem;
+  }
 }
 
 @media (max-width: 56.25em) {
   .projects__list-item {
     grid-template-columns: 100%;
+  }
+  .image-profile {
+    border-radius: 100%;
+    max-width: 20rem;
   }
 }
 
